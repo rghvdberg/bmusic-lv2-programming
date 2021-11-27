@@ -3,4 +3,4 @@
 
 <https://github.com/rghvdberg/bmusic-lv2-programming/myAmp> a lv2:Plugin,lv2:AmplifierPlugin;
 lv2:binary <myAmp.so> ;
-rdfs:seeAlos <myAmp.ttl> .
+rdfs:seeAlso <myAmp.ttl> .
