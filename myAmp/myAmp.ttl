@@ -5,20 +5,20 @@
 
 <https://github.com/rghvdberg/bmusic-lv2-programming/myAmp> a lv2:Plugin,lv2:AmplifierPlugin;
 lv2:binary <myAmp.so> ;
-rdfs:seeAlos <myAmp.ttl> ;
+rdfs:seeAlso <myAmp.ttl> ;
 doap:name "MyAmp" ;
 lv2:optionalFeature lv2:hardRTCapable ;
 
 lv2:port
     [
-        a lv2:InputPort, lv2:Audioport ;
+        a lv2:InputPort, lv2:AudioPort ;
         lv2:index 0 ;
         lv2:symbol "audio_in" ;
         lv2:name "Audio Input" ;
     ] ,
 
     [
-        a lv2:OutputPort, lv2:Audioport ;
+        a lv2:OutputPort, lv2:AudioPort ;
         lv2:index 1 ;
         lv2:symbol "audio_out" ;
         lv2:name "Audio Output" ;
