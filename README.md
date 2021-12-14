@@ -10,6 +10,6 @@ https://github.com/sjaehn/lv2tutorial](https://github.com/sjaehn/lv2tutorial)
 - [x] 05 A Sound Generator in C++
   - compiled with : ```g++ -fvisibility=hidden -fPIC -Wl,-Bstatic -Wl,-Bdynamic -Wl,--as-needed -shared -pthread `pkg-config --cflags lv2` -lm `pkg-config --libs lv2` myTestTone.cpp -o myTestTone.so```
 - [X] 07 - The Simplest MIDI Synth (Part 1)
-- [ ] 08 - The Simplest MIDI Synth (Part 2)
+- [X] 08 - The Simplest MIDI Synth (Part 2)
 - [ ] 09 - Waveform Synth In C++ 11
   
